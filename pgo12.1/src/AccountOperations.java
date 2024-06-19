@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public interface AccountOperations {
+public interface AccountOperations {
+
+    void checkBankAccount();
+    void doTransaction();
+    void paymentIntoAccount();
+
 }

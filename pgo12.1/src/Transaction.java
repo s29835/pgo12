@@ -1,2 +1,10 @@
-package PACKAGE_NAME;public class Transaction {
+public class Transaction {
+    private double bankAccountValue;
+    private String inAccount;
+    private String outAccount;
+    
+
+
+
+
 }

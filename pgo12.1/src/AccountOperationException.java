@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class AccountOperationException {
+public class AccountOperationException extends Exception {
+    public AccountOperationException(String message){
+        super(message);
+    }
+
+
+
 }
